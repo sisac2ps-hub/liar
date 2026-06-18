@@ -1,0 +1,29 @@
+{
+  "name": "liar-game-helper",
+  "version": "1.0.0",
+  "description": "Liar Game helper site for voice chats",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client-install": "npm install --prefix client",
+    "client-build": "npm run build --prefix client",
+    "client-dev": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client-dev\"",
+    "build": "npm run client-build",
+    "install-all": "npm install && npm run client-install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0",
+    "nodemon": "^3.1.9"
+  }
+}
