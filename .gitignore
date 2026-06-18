@@ -1,9 +1,8 @@
 # Dependencies
 node_modules/
-client/node_modules/
 
-# Production build
-client/dist/
+# Ignore frontend source directory entirely for production git
+client/
 
 # Configuration and Database (optional - keep empty database but save settings locally)
 # server/data/config.json

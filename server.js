@@ -829,7 +829,7 @@ function checkWinConditions(room) {
 }
 
 // Serve Frontend client build in Production
-const CLIENT_DIST = path.join(__dirname, 'client', 'dist');
+const CLIENT_DIST = path.join(__dirname, 'public');
 if (fs.existsSync(CLIENT_DIST)) {
   app.use(express.static(CLIENT_DIST));
   app.get('*', (req, res) => {
