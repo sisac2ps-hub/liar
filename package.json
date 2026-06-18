@@ -2,10 +2,10 @@
   "name": "liar-game-helper",
   "version": "1.0.0",
   "description": "Liar Game helper site for voice chats",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server.js",
+    "start": "node index.js",
+    "server": "nodemon index.js",
     "client-install": "npm install --prefix client",
     "client-build": "npm run build --prefix client",
     "client-dev": "npm run dev --prefix client",
