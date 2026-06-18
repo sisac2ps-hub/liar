@@ -10,7 +10,7 @@
     "client-build": "npm run build --prefix client",
     "client-dev": "npm run dev --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client-dev\"",
-    "build": "npm run client-build",
+    "build": "echo 'Build skipped: assets are pre-built in public directory'",
     "install-all": "npm install && npm run client-install"
   },
   "keywords": [],
