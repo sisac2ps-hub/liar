@@ -1,0 +1,9 @@
+PassengerAppRoot /home/u429894651/domains/partygamehub.cc/nodejs
+PassengerAppType node
+PassengerNodejs /opt/alt/alt-nodejs22/root/bin/node
+PassengerStartupFile index.js
+PassengerBaseURI /
+PassengerRestartDir /home/u429894651/domains/partygamehub.cc/nodejs/tmp
+SetEnv NODE_OPTIONS "--require /home/u429894651/domains/partygamehub.cc/public_html/.builds/config/preload-timestamp.js"
+SetEnv LSNODE_CONSOLE_LOG console.log
+RewriteRule ^\.builds - [F,L]

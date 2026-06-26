@@ -1,0 +1,5 @@
+# 구글 애드센스 본인 확인용 ads.txt 파일
+# 구글 애드센스 승인 후 아래 XXXXXXXXXXXXXXXX 부분을 본인의 게시자 ID(16자리 숫자)로 변경해 주세요.
+# 예: google.com, pub-1234567890123456, DIRECT, f08c47fec0942fa0
+
+google.com, pub-8389301231907452, DIRECT, f08c47fec0942fa0

@@ -17,9 +17,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "basic-ftp": "^6.0.1",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.21.2",
+    "nodemailer": "^9.0.1",
     "socket.io": "^4.8.1"
   },
   "devDependencies": {
